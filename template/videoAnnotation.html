@@ -1,0 +1,19 @@
+<div ng-controller="videoController" ng-init="init()">
+    <video id="videoplayer" controls>
+        <source id='mp4'
+                src="contents/Marvel's Avengers- Age of Ultron - Trailer 3.mp4"
+                type='video/mp4'/>
+        <p>Your user agent does not support the HTML5 Video element.</p>
+    </video>
+
+    <div class="overlay" id="list">
+        <div id="overlaylist">
+            <ul class="container-fluid" style="list-style-type:none">
+                <li class="row" ng-repeat="noteObj in videoNotes" ng-click="seekVideo(noteObj.timeFrame)">{{noteObj.description}}
+                    <br><span class="time">{{secondsToTime(noteObj.timeFrame)}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button class="overlay btn btn-primary" id="showhidelist" ng-click='showhide()'>Hide</button>
+</div>

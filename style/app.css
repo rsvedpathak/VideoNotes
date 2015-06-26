@@ -1,0 +1,55 @@
+#v {
+    z-index: 1;
+}
+.overlay {
+    position: absolute; 
+    color: #000; 
+    font-size: 17px;
+    background-color: grey;
+    z-index: 2147483647;
+    opacity: 0.7;
+}
+
+#videoplayer{
+    height: 450px !important;
+}
+
+#list {
+    top: 70px;
+    width: 250px;
+    height:450px;
+    z-index: 2147483647;
+}
+#showhidelist {
+    left: 250px;
+    top: 290px;
+    z-index: 2147483647;
+}
+.controls {
+    position: absolute; 
+    float:left;
+    top: 500px; 
+    color: #FFF; 
+    text-align: center;
+    font-size: 20px;
+    background-color: green;
+    width: 140px;
+    padding: 10px 0;
+    z-index: 2147483647;
+}
+.time{
+    font-size: 12px;
+}
+
+li {cursor: pointer;}
+
+li:hover { background-color:grey; }
+
+li:nth-child(odd) {
+    background: #709ad7;
+    color: rgba(255, 255, 255, 0.9);
+}
+li:nth-child(even) {
+    background: #285278;
+    color: rgba(255, 255, 255, 0.9);
+}
