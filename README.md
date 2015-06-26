@@ -3,7 +3,7 @@
 <i>"Annotate video with AngularJs"</i>
 
 <h2>Demo</h2>
-<a href="https://htmlpreview.github.io/?https://github.com/RishikeshVedpathak/VideoNotes/blob/master/index.html">VideoNotes-Demo</a>
+<a href="https://htmlpreview.github.io/?https://github.com/rsvedpathak/VideoNotes/blob/master/index.html">VideoNotes-Demo</a>
 
 <h2>Easy to integrate - Power of AngularJs</h2>
 Just add <i>"\<videonote>\</videonote>"</i> tag in your html.
